@@ -21,13 +21,13 @@
 3. When the app will run successfully,
 		- One user with User role,
 	    # Default User credentials
-		**username** : Jolie_Watsica
-		**password** : Q54zo9G6Dw8vwa_
+		**username** : Trent.Hahn
+		**password** : 56O6y_K04upDVLr
 		
 		- One user with Admin role,
 	    # Default Admin credentials
-		**username** : Hans_Padberg4
-		**password** : XJqYH4b2OBxzsEE
+		**username** : Lenna32
+		**password** : PIIoHQQgLGgo_vU
 		
 
 ## How to run with Docker ? :
