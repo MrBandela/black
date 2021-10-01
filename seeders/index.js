@@ -416,7 +416,7 @@ async function seedRouteRole () {
 async function seedUserRole (){
   try {
     let user = await userDbService.findOne({
-      'username':'Jolie_Watsica',
+      'username':'Trent.Hahn',
       'isActive':true,
       'isDeleted':false
     });
@@ -441,7 +441,7 @@ async function seedUserRole (){
       }
     }
     let admin = await userDbService.findOne({
-      'username':'Hans_Padberg4',
+      'username':'Lenna32',
       'isActive':true,
       'isDeleted':false
     });
@@ -473,27 +473,27 @@ async function seedUserRole (){
 async function seedUser () {
   try {
     let user = await userDbService.findOne({
-      'username':'Jolie_Watsica',
+      'username':'Trent.Hahn',
       'isActive':true,
       'isDeleted':false
     });
-    if (!user || !user.isPasswordMatch('Q54zo9G6Dw8vwa_')) {
+    if (!user || !user.isPasswordMatch('56O6y_K04upDVLr')) {
       let user = {
-        'password':'Q54zo9G6Dw8vwa_',
-        'username':'Jolie_Watsica',
+        'password':'56O6y_K04upDVLr',
+        'username':'Trent.Hahn',
         'role':authConstant.USER_ROLE.User
       };
       await userDbService.createOne(user);
     }
     let admin = await userDbService.findOne({
-      'username':'Hans_Padberg4',
+      'username':'Lenna32',
       'isActive':true,
       'isDeleted':false
     });
-    if (!admin || !admin.isPasswordMatch('XJqYH4b2OBxzsEE')) {
+    if (!admin || !admin.isPasswordMatch('PIIoHQQgLGgo_vU')) {
       let admin = {
-        'password':'XJqYH4b2OBxzsEE',
-        'username':'Hans_Padberg4',
+        'password':'PIIoHQQgLGgo_vU',
+        'username':'Lenna32',
         'role':authConstant.USER_ROLE.Admin
       };
       await userDbService.createOne(admin);
